@@ -1,0 +1,48 @@
+.messagemine {
+  background-color: rgb(11, 115, 175);
+  border-radius: 10px;
+  border-radius: 1px solid white;
+  padding: 10px 10px;
+  color: white;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+.messagefrom {
+  background-color: rgb(225, 229, 238);
+  border-radius: 10px;
+  border-radius: 1px solid white;
+  padding: 10px 10px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+.messageContainer {
+  margin-top: 5px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
+.imageandmess {
+  display: flex;
+  width: 100%;
+}
+.onlinePeoplePicMsg {
+  height: 6vh;
+  width: 3vw;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.messageandtimefrom {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  max-width: 70%;
+}
+.messageandtimemine {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  max-width: 70%;
+}
+.NONE {
+  display: none;
+}

@@ -1,0 +1,83 @@
+.MainProfileEditContainer {
+  padding: 5rem;
+  padding-left: 5rem;
+  padding-top: 3rem;
+  border: 1px solid rgb(80, 73, 73);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  margin-top: 5vh;
+}
+.profileNameInEditPart{
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+.secondpartedit{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.infotoedit{
+    margin-right: 2rem;
+    font-size:1.5rem;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+.textedit{
+    height:4vh;
+    width:100%;
+    border-radius: 4px;
+    padding: 0.2rem;
+    padding-left: 0.5rem;
+    background: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    outline: none;
+    border:1px solid rgb(0, 0, 0);
+}
+.infotouser{
+    margin-top: 10px;
+    font-size: 0.8rem;
+    opacity: 80%;
+    font-weight: 500;
+}
+.textareaaa{
+    width:100%;
+    border-radius: 4px;
+    padding: 0.2rem;
+    padding-left: 0.5rem;
+    background: none;
+    outline: none;
+    border:1px solid rgb(0, 0, 0);
+}
+.personaluserinfo{
+    margin-top: 10px;
+    font-size: 1.1rem;
+    opacity: 80%;
+    font-weight: 600;
+    color: green;
+}
+.btnUserEdit {
+    margin-top: 20px;
+    width: 5vw;
+    background-color: #0b3761; /* Green */
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .texteditselect{
+    height:5.5vh;
+    width:10%;
+    border-radius: 4px;
+    padding: 0.2rem;
+    padding-left: 0.5rem;
+    background: none;
+    outline: none;
+    border:1px solid rgb(0, 0, 0);
+}

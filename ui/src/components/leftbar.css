@@ -1,0 +1,59 @@
+.leftbarx{
+    flex:3;
+    /* background-color: aquamarine; */
+}
+.profileContainer{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  margin-left: 4rem;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.coverPhoto{
+  height:20vh;
+  width:15vw;
+  object-fit: contain;
+}
+.postimgProfile{
+    height: 12vh;
+    width: 5.3vw;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    bottom:2rem;
+}
+.nameContainer{
+  display: flex;
+  flex-direction: column;
+padding: 20px;
+border-radius: 10px;
+-webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+margin-left: 4rem;
+align-items: center;
+justify-content: center;
+}
+.position{
+  margin-top: 3px;
+  opacity: 70%;
+  font-size: 0.8rem;
+}
+.infos{
+  align-items: flex-start;
+}
+.followersInfo{
+  margin-right:70px;
+  opacity: 80%;
+}
+.followersDiv{
+  margin-top:20px;
+}
+.numss{
+  color:rgb(8, 118, 245);
+}

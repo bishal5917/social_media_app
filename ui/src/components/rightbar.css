@@ -1,0 +1,38 @@
+.rightbarx{
+    flex:2.5;
+}
+.sponsoredSec{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.horizLine{
+    width: 20vw;
+}
+.contactshow{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: sticky;
+}
+.onlinePeoplePic{
+    height: 6vh;
+    width: 3vw;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.doticon{
+    position: absolute;
+    left:25px;
+    top:25px;
+    color: green !important;
+    font-size: 0.9rem !important;
+  }
+.onlineName{
+margin:5px;
+}
+.onlinePeopleInfo{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    position: relative;
+
+}

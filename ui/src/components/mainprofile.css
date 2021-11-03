@@ -1,0 +1,57 @@
+.mainContainer{
+    display: flex;
+}
+.leftContainerProfile{
+    flex:2;
+    padding:5rem;
+    display: flex;
+}
+.postimgMainProfile {
+    height: 27vh;
+    width: 13vw;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+.rightContainerPosts{
+    margin-right: 5rem;
+    flex:2;
+}
+.otherDetails{
+    display: flex;
+    flex-direction: column;
+    margin-left:2rem;
+}
+.usernameNEdit{
+    display: flex;
+}
+.editPBtn{
+    height:5vh;
+    border:1.5px solid rgb(5, 5, 146);
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    padding: 7px;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+.username{
+    font-weight: bold;
+    font-size: 1.5 rem;
+}
+.infoFP{
+    display: flex;
+    margin-top: 20px;
+}
+.InfoName{
+    opacity: 80%;
+    margin-left: 3px;
+}
+.NumsInfo{
+    font-weight: bolder;
+}
+.postsNums{
+    margin-inline:10px;
+}
+.bio{
+    width:10vw;
+    margin-top: 20px;
+}

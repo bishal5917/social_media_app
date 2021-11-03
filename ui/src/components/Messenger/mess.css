@@ -1,0 +1,32 @@
+.messengerContainer{
+    display: flex;
+    padding:10px;
+    height: 83vh;
+}
+.showPeople{
+    flex:3;
+}
+.showMessage{
+    flex:7;
+}
+.peopleInfo{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.Searchforfriend{
+    height:30%;
+    width:70%;
+    background-color: none;
+    border:none;
+    outline: none;
+    border-bottom:2px solid purple;
+    font-size: 20px;
+    padding:10px 10px;
+}
+.onlinePeopleInfos{
+    padding: 3px;
+    flex:3;
+
+}
+

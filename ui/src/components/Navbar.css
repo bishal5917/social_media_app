@@ -1,0 +1,84 @@
+.Nav {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  position: sticky;
+  top: 0;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  z-index: 999;
+}
+.left-nav {
+  flex: 3;
+  position: relative;
+  display: flex;
+}
+.profileInfo {
+  display: flex;
+  align-items: center;
+}
+.usname {
+  border-radius: 20px;
+  padding: 5px;
+  font-weight: bold;
+  color:rgb(1, 70, 182);
+}
+.mid-nav {
+  flex: 6;
+  display: flex;
+  justify-content: space-around;
+}
+.right-nav {
+  flex: 3;
+  display: flex;
+  align-items: center;
+}
+.micons {
+  margin-top: 10px;
+}
+.ricons {
+  margin-top: 10px;
+  border-radius: 30px;
+  padding: 5px;
+  background-color: rgb(235, 250, 255);
+  margin-inline: 20px;
+}
+.licons {
+  margin-top: 10px;
+  margin-inline: 30px;
+}
+.ficons {
+  margin: 10px;
+  color: rgb(8, 118, 245);
+}
+#srch {
+  background: none;
+  margin: 10px;
+  outline: none;
+  font-size: 1.2rem;
+  width: 15vw;
+  border: none;
+}
+#srch:focus {
+  border: none;
+  outline: none;
+}
+.ricons:active {
+  border-bottom: 2px solid rgb(0, 89, 255);
+}
+.micons:active {
+  border-bottom: 2px solid rgb(0, 89, 255);
+  color: rgb(0, 89, 255);
+}
+.usname:active {
+  border-bottom: 2px solid rgb(0, 89, 255);
+}
+.searchcontainer {
+  display: flex;
+  background-color: rgb(231, 231, 231);
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  height: 7vh;
+  margin-top: 4px;
+  padding-left: 5px;
+}

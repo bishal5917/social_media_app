@@ -1,0 +1,11 @@
+.Components {
+  display: flex;
+  /* height:calc(100vh-40px); */
+}
+.freeSpace2 {
+  flex: 1;
+}
+.freeSpace1 {
+  flex: 1;
+  /* background-color: red; */
+}

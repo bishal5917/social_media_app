@@ -1,0 +1,30 @@
+.messageWrapper{
+    display: flex;
+    height: 91%;
+    flex-direction: column;
+    overflow-y: scroll;
+    padding: 10px;
+}
+.typemessage{
+    display: flex;
+    /* background-color: rgb(0, 0, 0); */
+    /* height:20vh; */
+    padding: 10px 10px;
+    align-items: center;
+}
+.msgInput{
+ width:90%;
+ height: 4vh;
+ outline: none;
+ border: none;
+ background-color:rgb(218, 218, 218);
+ background-color: none;
+ border-radius: 20px;
+ padding:10px 10px;
+ font-size: 1.2rem;
+}
+.sendMess{
+    display: flex;
+    color:rgb(11, 115, 175) !important;
+    margin-left: 20px;
+}
