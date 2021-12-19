@@ -23,6 +23,8 @@ function Navbar() {
 
     const { user, dispatch } = useContext(Context)
 
+    console.log(user)
+
     //getting the first username
     let firstName = user.username.split(" ")[0]
 
